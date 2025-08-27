@@ -24,7 +24,7 @@
                 <h1>Kenapa Kami?</h1>
                 <p>
                     Kami memberikan solusi TI terbaik dan terpercaya untuk kebutuhan bisnis Anda.
-                </p> 
+                </p>
             </div>
         </div>
         <div class="row">
@@ -254,10 +254,10 @@
     <!-- CSS tambahan -->
 <style>
     .about-img {
-  max-width: auto; 
-  width: auto;      
-  height: auto;     
-  border-radius: auto; 
+  max-width: auto;
+  width: auto;
+  height: auto;
+  border-radius: auto;
 }
 .feature-box {
     transition: all 0.3s ease;

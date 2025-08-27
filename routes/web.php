@@ -2,15 +2,11 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('index'); // halaman Home
+    return view('index'); 
 });
 
 Route::get('/about', function () {
     return view('partials.about');
-});
-
-Route::get('/shop', function () {
-    return view('partials.shop');
 });
 
 Route::get('/contact', function () {
