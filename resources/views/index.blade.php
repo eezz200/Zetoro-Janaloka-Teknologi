@@ -9,7 +9,7 @@
     <!-- Title -->
     <div class="row text-center py-3">
       <div class="col-lg-6 m-auto">
-        <h1 class="h1">Kategori Produk</h1>
+        <h1 class="h1">Kategori Layanan</h1>
         <p>Pilih kategori sesuai kebutuhan Anda: IT, Jasa, dan Alat Tulis Kantor (ATK).</p>
       </div>
     </div>

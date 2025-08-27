@@ -69,7 +69,7 @@
                  id="templatemo_main_nav">
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                        <li class="nav-item"><a class="nav-link" href="{{ url('index') }}">Beranda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Beranda</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">Tentang</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://katalog.inaproc.id/zetoro-janaloka-teknologi" target="_blank">Toko</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('/contact') }}">Kontak</a></li>
@@ -197,7 +197,7 @@
 <script src="{{ asset('assets/js/custom.js') }}"></script>
 
 <!-- CDN JS -->
-<script src="https://cdn.jsdelivr.net/npm/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
