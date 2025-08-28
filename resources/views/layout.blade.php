@@ -120,13 +120,9 @@
             <div class="col-md-4 pt-5">
                 <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none text-light" href="#">Luxury</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">Sport Wear</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">Men's Shoes</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">Women's Shoes</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">Popular Dress</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">Gym Accessories</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">Sport Shoes</a></li>
+                    <li><a class="text-decoration-none text-light" href="#">IT</a></li>
+                    <li><a class="text-decoration-none text-light" href="#">Jasa Perawatan</a></li>
+                    <li><a class="text-decoration-none text-light" href="#">Alat Tulis Kantor (ATK)</a></li>
                 </ul>
             </div>
 
