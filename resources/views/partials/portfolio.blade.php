@@ -1,19 +1,20 @@
-
-<!-- Start portfolio of The Month -->
-<section id="portfolio" class="portfolio section">
+<!-- Start Portfolio of The Month -->
+<section id="portfolio" class="portfolio section py-5">
   <div class="container">
-    <div class="section-title" data-aos="fade-up">
-      <span>Portfolio</span>
-      <h2>Portfolio</h2>
+
+    <!-- Section Title -->
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="display-4 fw-bold mt-2">Portfolio</h2>
+      <hr class="mx-auto mt-3" style="width: 60px; border-top: 3px solid #28a745;">
+      <p class="text-muted mt-3">Beberapa karya pilihan yang telah kami kerjakan, mencakup desain, branding, dan lainnya.</p>
     </div>
 
-    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-      <!-- Filters -->
-      <div class="portfolio-filters d-flex justify-content-center mb-4" data-aos="fade-up" data-aos-delay="100">
-        <button class="btn btn-outline-success me-2 filter-active" data-filter="*">All</button>
-        <button class="btn btn-outline-success me-2" data-filter=".filter-desain">Desain</button>
-        <button class="btn btn-outline-success" data-filter=".filter-branding">Branding</button>
-      </div>
+    <!-- Filters -->
+    <div class="portfolio-filters d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="100">
+      <button class="btn btn-outline-success me-2 filter-active" data-filter="*">All</button>
+      <button class="btn btn-outline-success me-2" data-filter=".filter-desain">Desain</button>
+      <button class="btn btn-outline-success" data-filter=".filter-branding">Branding</button>
+    </div>
 
       <!-- Portfolio Items -->
       <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
