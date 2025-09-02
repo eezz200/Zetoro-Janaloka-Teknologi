@@ -1,3 +1,56 @@
 /*
 Custom Css
 */
+  /* bikin semua card dalam row tinggi sama */
+  .equal-height {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+  .equal-height > div {
+    display: flex;
+  }
+
+  .equal-height .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Bikin teks paragraf rata kiri-kanan */
+  .card-text {
+    text-align: justify;
+  }
+
+  /* Judul & span tetap rata tengah */
+  .card-body a,
+  .card-body span {
+    display: block;
+    text-align: center;
+  }
+
+    .footer {
+    background-color: #4B2E83; /* ungu */
+  }
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff69b4;
+    color: white;
+    font-size: 18px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+    display: none;
+    z-index: 9999;
+  }
+  .scroll-to-top:hover {
+    background-color: #ff85c1;
+    transform: translateY(-3px);
+  }

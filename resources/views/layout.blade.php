@@ -7,7 +7,7 @@
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" href="{{ asset('assets/img/apple-icon.png') }}">
-  <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon.ico') }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favico.png') }}">
 
   <!-- LOCAL CSS -->
   <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
@@ -118,26 +118,22 @@
 
             {{-- Footer Column 2 --}}
             <div class="col-md-4 pt-5">
-                <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+                <h2 class="h2 text-light border-bottom pb-3 border-light">Layanan Kami</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none text-light" href="#">Luxury</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">Sport Wear</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">Men's Shoes</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">Women's Shoes</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">Popular Dress</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">Gym Accessories</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">Sport Shoes</a></li>
+                    <li><a class="text-decoration-none text-light" href="#">IT</a></li>
+                    <li><a class="text-decoration-none text-light" href="#">Jasa Perawatan</a></li>
+                    <li><a class="text-decoration-none text-light" href="#">Alat Tulis Kantor (ATK)</a></li>
                 </ul>
             </div>
 
             {{-- Footer Column 3 --}}
             <div class="col-md-4 pt-5">
-                <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+                <h2 class="h2 text-light border-bottom pb-3 border-light">Tentang Zetoro</h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li><a class="text-decoration-none text-light" href="/">Beranda</a></li>
                     <li><a class="text-decoration-none text-light" href="/about">Tentang Kami</a></li>
                     <li><a class="text-decoration-none text-light hover-success" target="_blank" href="https://www.google.com/maps/place/MASPION+SQUARE/@-7.3154342,112.733122,17z">Lokasi Toko</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">FAQ</a></li>
+                    <li><a class="text-decoration-none text-light" href="/faq">FAQ</a></li>
                     <li><a class="text-decoration-none text-light" href="/contact">Kontak</a></li>
                 </ul>
             </div>
