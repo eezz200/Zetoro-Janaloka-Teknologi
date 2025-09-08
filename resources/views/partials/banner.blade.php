@@ -10,13 +10,13 @@
     <!-- Slides -->
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="https://picsum.photos/id/1015/1920/800" class="d-block w-100 banner-img" alt="Banner 1">
+            <img src="assets/img/banner_01.png" class="d-block w-100 banner-img" alt="Banner 1">
         </div>
         <div class="carousel-item">
-            <img src="https://picsum.photos/id/1016/1920/800" class="d-block w-100 banner-img" alt="Banner 2">
+            <img src="assets/img/banner_02.png" class="d-block w-100 banner-img" alt="Banner 2">
         </div>
         <div class="carousel-item">
-            <img src="https://picsum.photos/id/1018/1920/800" class="d-block w-100 banner-img" alt="Banner 3">
+            <img src="assets/img/banner_03.png" class="d-block w-100 banner-img" alt="Banner 3">
         </div>
     </div>
 
