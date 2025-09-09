@@ -12,3 +12,8 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('partials.contact');
 });
+
+
+Route::get('/faq', function () {
+    return view('partials.faq');
+});
