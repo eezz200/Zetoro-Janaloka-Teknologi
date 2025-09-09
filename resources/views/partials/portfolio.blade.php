@@ -1,88 +1,95 @@
 <!-- Start Portfolio of The Month -->
 <section id="portfolio" class="portfolio section py-5">
   <div class="container">
-
-    <!-- Section Title -->
-    <div class="text-center mb-5" data-aos="fade-up">
-      <h2 class="display-4 fw-bold mt-2">Portfolio</h2>
+    <!-- Start Portfolio Carousel -->
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Portfolio</h2>
       <hr class="mx-auto mt-3" style="width: 60px; border-top: 3px solid #28a745;">
-      <p class="text-muted mt-3">Beberapa karya pilihan yang telah kami kerjakan, mencakup desain, branding, dan lainnya.</p>
+      <p class="text-muted">Beberapa karya pilihan kami dalam desain, branding, dan lainnya.</p>
     </div>
 
-    <!-- Filters -->
-    <div class="portfolio-filters d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="100">
-      <button class="btn btn-outline-success me-2 filter-active" data-filter="*">All</button>
-      <button class="btn btn-outline-success me-2" data-filter=".filter-desain">Desain</button>
-      <button class="btn btn-outline-success" data-filter=".filter-branding">Branding</button>
-    </div>
+<div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
 
-      <!-- Portfolio Items -->
-      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#portfolioCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#portfolioCarousel" data-bs-slide-to="2"></li>
+        <li data-bs-target="#portfolioCarousel" data-bs-slide-to="3"></li>
+        <li data-bs-target="#portfolioCarousel" data-bs-slide-to="4"></li>
+      </ol>
 
-        <!-- Desain 1 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-desain">
-          <img src="assets/img/portfolio/pft1.png" class="img-fluid" alt="Desain 1">
-          <div class="portfolio-info">
-            <h4>Desain 1</h4>
-            <a href="assets/img/portfolio/pft1.png" title="Desain 1" data-gallery="portfolio-gallery-desain" class="glightbox preview-link me-2"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+      <!-- Carousel Items -->
+      <div class="carousel-inner">
+
+        <!-- Item 1 -->
+        <div class="carousel-item active">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-5">
+              <img src="assets/img/portfolio/pft1.png" class="img-fluid rounded shadow-sm" alt="Desain 1">
+            </div>
           </div>
         </div>
 
-        <!-- Branding 1 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <img src="assets/img/masonry-portfolio/pf1.png" class="img-fluid" alt="Branding 1">
-          <div class="portfolio-info">
-            <h4>Branding 1</h4>
-            <a href="assets/img/masonry-portfolio/pf1.png" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link me-2"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+        <!-- Item 2 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-5">
+              <img src="assets/img/masonry-portfolio/pf1.png" class="img-fluid rounded shadow-sm" alt="Branding 1">
+            </div>
           </div>
         </div>
 
-        <!-- Branding 2 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <img src="assets/img/masonry-portfolio/pf3.png" class="img-fluid" alt="Branding 2">
-          <div class="portfolio-info">
-            <h4>Branding 2</h4>
-            <a href="assets/img/masonry-portfolio/pf3.png" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link me-2"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+        <!-- Item 3 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-5">
+              <img src="assets/img/masonry-portfolio/pf3.png" class="img-fluid rounded shadow-sm" alt="Branding 2">
+            </div>
           </div>
         </div>
 
-        <!-- Desain 2 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-desain">
-          <img src="assets/img/portfolio/pft2.png" class="img-fluid" alt="Desain 2">
-          <div class="portfolio-info">
-            <h4>Desain 2</h4>
-            <a href="assets/img/portfolio/pft2.png" title="Desain 2" data-gallery="portfolio-gallery-desain" class="glightbox preview-link me-2"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+        <!-- Item 4 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-5">
+              <img src="assets/img/portfolio/pft2.png" class="img-fluid rounded shadow-sm" alt="Desain 2">
+            </div>
           </div>
         </div>
 
-        <!-- Branding 3 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <img src="assets/img/masonry-portfolio/pf2.png" class="img-fluid" alt="Branding 3">
-          <div class="portfolio-info">
-            <h4>Branding 3</h4>
-            <a href="assets/img/masonry-portfolio/pf2.png" title="Branding 3" data-gallery="portfolio-gallery-branding" class="glightbox preview-link me-2"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+        <!-- Item 5 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-5">
+              <img src="assets/img/portfolio/pft4.png" class="img-fluid rounded shadow-sm" alt="Desain 3">
+            </div>
           </div>
         </div>
-
-        <!-- Desain 3 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-desain">
-          <img src="assets/img/portfolio/pft3.png" class="img-fluid" alt="Desain 3">
-          <div class="portfolio-info">
-            <h4>Desain 3</h4>
-            <a href="assets/img/portfolio/pft3.png" title="Desain 3" data-gallery="portfolio-gallery-desain" class="glightbox preview-link me-2"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div>
-
-        <!-- dst... tambahkan manual sesuai kebutuhan -->
 
       </div>
+
+      <!-- Controls -->
+      <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-bs-slide="prev">
+        <i class="fas fa-chevron-left text-success fs-3"></i>
+      </a>
+      <a class="carousel-control-next" href="#portfolioCarousel" role="button" data-bs-slide="next">
+        <i class="fas fa-chevron-right text-success fs-3"></i>
+      </a>
     </div>
   </div>
 </section>
-<!-- End Portfolio Section -->
+<!-- End Portfolio Carousel -->
+
+<!-- Custom CSS -->
+<style>
+  #portfolioCarousel .carousel-item {
+    padding: 30px 0;
+  }
+  #portfolioCarousel img {
+    max-height: 400px; /* batasi tinggi gambar */
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+  }
+</style>
