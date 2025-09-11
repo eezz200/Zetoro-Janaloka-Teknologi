@@ -157,7 +157,7 @@
 </div>
 
       <div class="col-md-4 col-12">
-        <a href="zetorojanaloka@gmail.com" class="text-decoration-none">
+        <a href="mailto:zetorojanaloka@gmail.com" class="text-decoration-none">
           <div class="card p-4 h-100 card-red">
             <i class="bi bi-envelope-fill contact-icon"></i>
             <h5><bold>Email</h5>
