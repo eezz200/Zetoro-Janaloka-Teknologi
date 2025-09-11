@@ -108,7 +108,7 @@
         <div class="row">
             {{-- Footer Column 1 --}}
             <div class="col-md-4 pt-5">
-                <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zetoro Janaloka Teknologi</h2>
+                <h2 class="h2 text-success border-bottom border-2 border-white pb-3">Zetoro Janaloka Teknologi</h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li><i class="fas fa-map-marker-alt fa-fw me-2"></i>Maspion Square Blok D-3(Ex Giant Margorejo) Jl. Ahmad Yani No 73 Surabaya</p></li>
                     <li><i class="fa fa-phone fa-fw me-2"></i> <a class="text-decoration-none text-light" href="tel:+62 822-4564-5353">+62 822-4564-5353</a></li>
@@ -118,21 +118,21 @@
 
             {{-- Footer Column 2 --}}
             <div class="col-md-4 pt-5">
-                <h2 class="h2 text-light border-bottom pb-3 border-light">Layanan Kami</h2>
+                <h2 class="h2 text-success border-bottom border-2 border-white pb-3">Layanan Kami</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none text-light" href="#">IT</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">Jasa Perawatan</a></li>
-                    <li><a class="text-decoration-none text-light" href="#">Alat Tulis Kantor (ATK)</a></li>
+                    <li><a class="text-decoration-none text-light" >IT</a></li>
+                    <li><a class="text-decoration-none text-light" >Jasa Perawatan</a></li>
+                    <li><a class="text-decoration-none text-light" >Alat Tulis Kantor (ATK)</a></li>
                 </ul>
             </div>
 
             {{-- Footer Column 3 --}}
             <div class="col-md-4 pt-5">
-                <h2 class="h2 text-light border-bottom pb-3 border-light">Tentang Zetoro</h2>
+                <h2 class="h2 text-success border-bottom border-2 border-white pb-3">Tentang Zetoro</h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li><a class="text-decoration-none text-light" href="/">Beranda</a></li>
                     <li><a class="text-decoration-none text-light" href="/about">Tentang Kami</a></li>
-                    <li><a class="text-decoration-none text-light hover-success" target="_blank" href="https://www.google.com/maps/place/MASPION+SQUARE/@-7.3154342,112.733122,17z">Lokasi Toko</a></li>
+                    <li><a class="text-decoration-none text-light hover-success" target="_blank" href="https://maps.google.com/?q=Maspion+Square+Surabaya">Lokasi Toko</a></li>
                     <li><a class="text-decoration-none text-light" href="/faq">FAQ</a></li>
                     <li><a class="text-decoration-none text-light" href="/contact">Kontak</a></li>
                 </ul>
@@ -158,14 +158,15 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-auto">
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
-                    <div class="input-group-text btn-success text-light">Subscribe</div>
-                </div>
-            </div>
         </div>
     </div>
+    <!-- Tombol WhatsApp Floating -->
+    <a href="https://wa.me/6282245645353?text=Halo%20Zetoro%20Janaloka%20Teknologi%2C%20saya%20ingin%20bertanya..."
+    class="whatsapp-float"
+    target="_blank"
+    aria-label="Chat via WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+    </a>
 
     {{-- Copyright --}}
     <div class="bg-success text-white text-center py-3">

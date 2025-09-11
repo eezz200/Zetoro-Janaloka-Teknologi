@@ -1,53 +1,5 @@
 @extends('layout')
 @section('content')
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontak Kami</title>
-    <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
-</head>
-<body>
-    <section class="contact-section">
-        <div class="contact-container">
-
-            <!-- MAP -->
-            <div class="map-container">
-                <iframe
-                    src="https://maps.app.goo.gl/Q9yddyzkwYPwjGfW6"
-                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
-                </iframe>
-            </div>
-
-            <!-- KOTAK INFO -->
-            <div class="info-container">
-
-                <div class="info-box">
-                    <h3>📞 Telepon</h3>
-                    <p>Senin - Jumat, 10.00-17.00</p>
-                    <a href="tel:02263734856"></a>
-                </div>
-
-                <div class="info-box">
-                    <h3>📧 Email</h3>
-                    <p>Respon dalam 2 jam</p>
-                    <a href="mailto:mailbox@icreativelabs.com">mailbox@icreativelabs.com</a>
-                </div>
-
-                <div class="info-box">
-                    <h3>📍 Kunjungi Kantor Kami</h3>
-                    <p>Maspion IT Lt.1 Blok C</p>
-                    <a href="#">Lihat di Maps →</a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-</body>
-</html>
-=======
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,6 +11,12 @@
 
   <style>
     /* Header */
+
+    html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
     .contact-header {
       background: linear-gradient(135deg, #43a047, #1b5e20);
       color: white;
@@ -234,15 +192,15 @@
             <!-- Maps -->
             <div class="col-md-7" data-aos="fade-left">
                 <div class="card shadow border-0 rounded overflow-hidden h-100">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6004527544063!2d112.74374087499384!3d-7.289360592725091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb198e87f1df%3A0x32d61a2f97521bb5!2sMaspion%20Square!5e0!3m2!1sid!2sid!4v1735341062334!5m2!1sid!2sid"
-                        width="100%"
-                        height="350"
-                        style="border:0;"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.341910434071!2d112.73312197500023!3d-7.315434192692571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb5a104cae0b%3A0x134b020dd584cdcf!2sMASPION%20SQUARE!5e0!3m2!1sid!2sid!4v1757561130595!5m2!1sid!2sid"
+                width="100%"
+                height="350"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
                 </div>
             </div>
 
@@ -278,5 +236,4 @@
     });
   </script>
 
->>>>>>> 158ef4c9ca12df4a37b329044926ee8c30933b91
 @endsection
