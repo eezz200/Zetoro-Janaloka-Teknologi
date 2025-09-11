@@ -132,7 +132,7 @@
                 <ul class="list-unstyled text-light footer-link-list">
                     <li><a class="text-decoration-none text-light" href="/">Beranda</a></li>
                     <li><a class="text-decoration-none text-light" href="/about">Tentang Kami</a></li>
-                    <li><a class="text-decoration-none text-light hover-success" target="_blank" href="https://maps.google.com/?q=Maspion+Square+Surabaya"">Lokasi Toko</a></li>
+                    <li><a class="text-decoration-none text-light hover-success" target="_blank" href="https://maps.google.com/?q=Maspion+Square+Surabaya">Lokasi Toko</a></li>
                     <li><a class="text-decoration-none text-light" href="/faq">FAQ</a></li>
                     <li><a class="text-decoration-none text-light" href="/contact">Kontak</a></li>
                 </ul>
@@ -160,6 +160,13 @@
             </div>
         </div>
     </div>
+    <!-- Tombol WhatsApp Floating -->
+    <a href="https://wa.me/6282245645353?text=Halo%20Zetoro%20Janaloka%20Teknologi%2C%20saya%20ingin%20bertanya..."
+    class="whatsapp-float"
+    target="_blank"
+    aria-label="Chat via WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+    </a>
 
     {{-- Copyright --}}
     <div class="bg-success text-white text-center py-3">
