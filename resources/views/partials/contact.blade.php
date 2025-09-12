@@ -208,6 +208,136 @@
     </div>
 </section>
 
+<!-- Testimoni Carousel -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center text-success mb-5 fw-bold" data-aos="fade-up">Apa Kata Mereka?</h2>
+
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row g-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="card border-0 shadow-sm h-100" style="border-radius: 20px;">
+                <div class="card-body text-center">
+                  <i class="bi bi-chat-quote-fill text-success" style="font-size: 2rem;"></i>
+                  <p class="mt-3">"Pelayanan Zetoro sangat cepat dan profesional."</p>
+                  <h6 class="fw-bold mb-0">Budi Santoso</h6>
+                  <small class="text-muted">budi@gmail.com</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="card border-0 shadow-sm h-100" style="border-radius: 20px;">
+                <div class="card-body text-center">
+                  <i class="bi bi-chat-quote-fill text-success" style="font-size: 2rem;"></i>
+                  <p class="mt-3">"Produk yang ditawarkan sangat berkualitas."</p>
+                  <h6 class="fw-bold mb-0">Sari Wulandari</h6>
+                  <small class="text-muted">sari@yahoo.com</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card border-0 shadow-sm h-100" style="border-radius: 20px;">
+                <div class="card-body text-center">
+                  <i class="bi bi-chat-quote-fill text-success" style="font-size: 2rem;"></i>
+                  <p class="mt-3">"Zetoro membantu teknologi perusahaan kami."</p>
+                  <h6 class="fw-bold mb-0">Andi Pratama</h6>
+                  <small class="text-muted">andi@mail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="row g-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="card border-0 shadow-sm h-100" style="border-radius: 20px;">
+                <div class="card-body text-center">
+                  <i class="bi bi-chat-quote-fill text-success" style="font-size: 2rem;"></i>
+                  <p class="mt-3">"Respon customer service sangat cepat."</p>
+                  <h6 class="fw-bold mb-0">Dewi Lestari</h6>
+                  <small class="text-muted">dewi@mail.com</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="card border-0 shadow-sm h-100" style="border-radius: 20px;">
+                <div class="card-body text-center">
+                  <i class="bi bi-chat-quote-fill text-success" style="font-size: 2rem;"></i>
+                  <p class="mt-3">"Kualitas produk sangat memuaskan."</p>
+                  <h6 class="fw-bold mb-0">Rian Setiawan</h6>
+                  <small class="text-muted">rian@mail.com</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card border-0 shadow-sm h-100" style="border-radius: 20px;">
+                <div class="card-body text-center">
+                  <i class="bi bi-chat-quote-fill text-success" style="font-size: 2rem;"></i>
+                  <p class="mt-3">"Tim Zetoro ramah dan komunikatif."</p>
+                  <h6 class="fw-bold mb-0">Fitri Ananda</h6>
+                  <small class="text-muted">fitri@mail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="row g-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="card border-0 shadow-sm h-100" style="border-radius: 20px;">
+                <div class="card-body text-center">
+                  <i class="bi bi-chat-quote-fill text-success" style="font-size: 2rem;"></i>
+                  <p class="mt-3">"Harga sesuai kualitas, worth it!"</p>
+                  <h6 class="fw-bold mb-0">Ahmad Fauzi</h6>
+                  <small class="text-muted">ahmad@mail.com</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="card border-0 shadow-sm h-100" style="border-radius: 20px;">
+                <div class="card-body text-center">
+                  <i class="bi bi-chat-quote-fill text-success" style="font-size: 2rem;"></i>
+                  <p class="mt-3">"Pengiriman cepat dan aman."</p>
+                  <h6 class="fw-bold mb-0">Lina Kurnia</h6>
+                  <small class="text-muted">lina@mail.com</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card border-0 shadow-sm h-100" style="border-radius: 20px;">
+                <div class="card-body text-center">
+                  <i class="bi bi-chat-quote-fill text-success" style="font-size: 2rem;"></i>
+                  <p class="mt-3">"Sangat puas dengan pelayanan Zetoro."</p>
+                  <h6 class="fw-bold mb-0">Yusuf Hidayat</h6>
+                  <small class="text-muted">yusuf@mail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tambahin AOS JS & CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true
+  });
+</script>
 
   <!-- JS Animasi -->
   <script>
