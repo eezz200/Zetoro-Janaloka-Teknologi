@@ -1,106 +1,112 @@
 # Zetoro Janaloka Teknologi
 
-Zetoro Janaloka Teknologi adalah platform website korporasi yang dirancang untuk mengintegrasikan layanan **pengadaan barang**, **penyewaan perangkat keras**, dan **solusi IT kustom** bagi instansi maupun perusahaan.
+Zetoro Janaloka Teknologi is a corporate website platform designed to integrate **procurement services**, **hardware rental**, and **custom IT solutions** for institutions and businesses.
 
-Website ini menghadirkan tampilan modern, responsif, dan interaktif untuk mendukung kebutuhan digitalisasi bisnis serta komunikasi layanan yang lebih efektif.
+The website features a modern, responsive, and interactive interface to support business digitalization needs and provide more effective service communication.
 
-## 🌟 Fitur Utama
+## 🌟 Key Features
 
 ### Responsive Bento Layout
 
-Tampilan modern dengan konsep **Bento Layout** yang bersih dan responsif sehingga nyaman digunakan di berbagai perangkat.
+A modern and clean **Bento Layout** designed to provide a responsive and comfortable experience across various devices.
 
 ### Dynamic FAQ
 
-Sistem FAQ interaktif dengan efek hover untuk memberikan pengalaman pengguna yang lebih mudah dalam mencari informasi.
+An interactive FAQ system with hover effects, making it easier for users to find and explore relevant information.
 
 ### Client Showcase
 
-Menampilkan daftar klien strategis menggunakan fitur **infinite marquee** dengan tampilan elegan dan dinamis.
+Showcases strategic clients using an **infinite marquee** with an elegant and dynamic presentation.
 
 ### Quick Contact
 
-Akses cepat menuju WhatsApp dan email untuk mempermudah koordinasi dan kebutuhan bisnis.
+Provides quick access to WhatsApp and email, making business communication and coordination easier.
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Technologies Used
 
-* **Framework:** Laravel
-* **Styling:** Tailwind CSS
-* **Interactivity:** Alpine.js
-* **Icons & Assets:** Bootstrap Icons
+- **Framework:** Laravel
+- **Styling:** Tailwind CSS
+- **Interactivity:** Alpine.js
+- **Icons & Assets:** Bootstrap Icons
 
 ---
 
-## 🚀 Instalasi & Development
+## 🚀 Installation & Development
 
-Pastikan perangkat Anda sudah memiliki:
+Make sure the following tools are installed on your computer:
 
-* PHP
-* Composer
-* Node.js
-* NPM
+- PHP
+- Composer
+- Node.js
+- NPM
 
-### 1. Clone Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/syfrzkngl/Zetoro-Janaloka-Technology-team.git
-```
+````
 
-### 2. Masuk ke Folder Project
+### 2. Navigate to the Project Folder
 
 ```bash
-cd Zetoro-Janaloka-Technology-team.git
+cd Zetoro-Janaloka-Technology-team
 ```
 
-### 3. Install Dependency
+### 3. Install Dependencies
 
-Install dependency Laravel:
+Install Laravel dependencies:
 
 ```bash
 composer install
 ```
 
-Install dependency frontend:
+Install frontend dependencies:
 
 ```bash
 npm install
 ```
 
-### 4. Konfigurasi Environment
+### 4. Configure the Environment
 
-Copy file environment:
+Copy the environment file:
 
 ```bash
 cp .env.example .env
 ```
 
-Generate application key:
+Generate the Laravel application key:
 
 ```bash
 php artisan key:generate
 ```
 
-### 5. Jalankan Project
+### 5. Run the Project
 
-Jalankan server Laravel:
+Start the Laravel development server:
 
 ```bash
 php artisan serve
 ```
 
-Jalankan frontend development:
+Run the frontend development server:
 
 ```bash
 npm run dev
 ```
 
+The application will be available at:
+
+```text
+http://127.0.0.1:8000
+```
+
 ---
 
-## 📂 Struktur Project
+## 📂 Project Structure
 
-```
+```text
 zetoro-janaloka/
 │
 ├── app/
@@ -114,16 +120,29 @@ zetoro-janaloka/
 
 ---
 
-## 📩 Hubungi Kami
+## 📩 Contact Us
 
-**WhatsApp:** Klik untuk chat
+**WhatsApp:** Click to chat
+
 **Email:** [zetorojanaloka@gmail.com](mailto:zetorojanaloka@gmail.com)
 
-**Alamat:**
+**Address:**
+
 Maspion Square Blok D-3, Surabaya
 
 ---
 
-## 📄 Lisensi
+## 📄 License
 
-Project ini dikembangkan untuk kebutuhan Zetoro Janaloka Teknologi.
+This project was developed for **Zetoro Janaloka Teknologi**.
+
+```
+
+### GitHub Description yang cocok
+
+Kalau sekalian mau **description singkat di bagian About GitHub**, aku sarankan:
+
+> **Corporate IT solutions platform for procurement, hardware rental, and custom technology services, built with Laravel, Tailwind CSS, and Alpine.js.**
+
+Ini lebih profesional untuk portfolio karena langsung menjelaskan **fungsi project + teknologi utama**.
+```
