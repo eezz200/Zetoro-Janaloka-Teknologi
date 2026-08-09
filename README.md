@@ -135,14 +135,3 @@ Maspion Square Blok D-3, Surabaya
 ## 📄 License
 
 This project was developed for **Zetoro Janaloka Teknologi**.
-
-```
-
-### GitHub Description yang cocok
-
-Kalau sekalian mau **description singkat di bagian About GitHub**, aku sarankan:
-
-> **Corporate IT solutions platform for procurement, hardware rental, and custom technology services, built with Laravel, Tailwind CSS, and Alpine.js.**
-
-Ini lebih profesional untuk portfolio karena langsung menjelaskan **fungsi project + teknologi utama**.
-```
